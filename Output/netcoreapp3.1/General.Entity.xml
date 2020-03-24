@@ -1,0 +1,48 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>General.Entity</name>
+    </assembly>
+    <members>
+        <member name="P:General.Entity.SysUser.Account">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:General.Entity.SysUser.Name">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:General.Entity.SysUser.Email">
+            <summary>
+            
+            </summary> 
+        </member>
+        <member name="P:General.Entity.SysUser.MobilePhone">
+            <summary>
+            
+            </summary> 
+        </member>
+        <member name="P:General.Entity.SysUser.Sex">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:General.Entity.SysUser.LastIpAddress">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:General.Entity.SysUser.Avatar">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:General.Entity.SysUserLoginLog.Message">
+            <summary>
+            
+            </summary>
+        </member>
+    </members>
+</doc>

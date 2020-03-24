@@ -1,0 +1,19 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <OutputPath>E:\Study\VS\General.Project\Output</OutputPath>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\General.Common\General.Common.csproj" />
+    <ProjectReference Include="..\General.Entity\General.Entity.csproj" />
+    <ProjectReference Include="..\General.IRepository\General.IRepository.csproj" />
+    <ProjectReference Include="..\General.IService\General.IService.csproj" />
+    <ProjectReference Include="..\General.Repository\General.Repository.csproj" />
+  </ItemGroup>
+
+</Project>

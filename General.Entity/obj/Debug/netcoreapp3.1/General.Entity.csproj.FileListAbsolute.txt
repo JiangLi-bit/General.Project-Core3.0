@@ -1,0 +1,8 @@
+E:\Study\VS\General.Project\Output\netcoreapp3.1\General.Entity.xml
+E:\Study\VS\General.Project\Output\netcoreapp3.1\General.Entity.deps.json
+E:\Study\VS\General.Project\Output\netcoreapp3.1\General.Entity.dll
+E:\Study\VS\General.Project\Output\netcoreapp3.1\General.Entity.pdb
+E:\Study\VS\General.Project\General.Entity\obj\Debug\netcoreapp3.1\General.Entity.AssemblyInfoInputs.cache
+E:\Study\VS\General.Project\General.Entity\obj\Debug\netcoreapp3.1\General.Entity.AssemblyInfo.cs
+E:\Study\VS\General.Project\General.Entity\obj\Debug\netcoreapp3.1\General.Entity.dll
+E:\Study\VS\General.Project\General.Entity\obj\Debug\netcoreapp3.1\General.Entity.pdb

@@ -1,0 +1,26 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <OutputPath>E:\Study\VS\General.Project\Output</OutputPath>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="RepositoryModule\**" />
+    <EmbeddedResource Remove="RepositoryModule\**" />
+    <None Remove="RepositoryModule\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="3.1.2" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\General.Entity\General.Entity.csproj" />
+    <ProjectReference Include="..\General.IRepository\General.IRepository.csproj" />
+  </ItemGroup>
+
+</Project>

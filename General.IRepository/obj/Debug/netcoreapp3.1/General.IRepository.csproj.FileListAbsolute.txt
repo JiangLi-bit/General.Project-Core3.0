@@ -1,0 +1,9 @@
+E:\Study\VS\General.Project\Output\netcoreapp3.1\General.IRepository.deps.json
+E:\Study\VS\General.Project\Output\netcoreapp3.1\General.IRepository.dll
+E:\Study\VS\General.Project\Output\netcoreapp3.1\General.IRepository.pdb
+E:\Study\VS\General.Project\General.IRepository\obj\Debug\netcoreapp3.1\General.IRepository.csprojAssemblyReference.cache
+E:\Study\VS\General.Project\General.IRepository\obj\Debug\netcoreapp3.1\General.IRepository.AssemblyInfoInputs.cache
+E:\Study\VS\General.Project\General.IRepository\obj\Debug\netcoreapp3.1\General.IRepository.AssemblyInfo.cs
+E:\Study\VS\General.Project\General.IRepository\obj\Debug\netcoreapp3.1\General.IRepository.csproj.CopyComplete
+E:\Study\VS\General.Project\General.IRepository\obj\Debug\netcoreapp3.1\General.IRepository.dll
+E:\Study\VS\General.Project\General.IRepository\obj\Debug\netcoreapp3.1\General.IRepository.pdb

@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <DocumentationFile>..\Output\netcoreapp3.1\General.Entity.xml</DocumentationFile>
+    <NoWarn>1701;1702;1591</NoWarn>
+    <OutputPath>E:\Study\VS\General.Project\Output</OutputPath>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="Entity\" />
+  </ItemGroup>
+
+</Project>

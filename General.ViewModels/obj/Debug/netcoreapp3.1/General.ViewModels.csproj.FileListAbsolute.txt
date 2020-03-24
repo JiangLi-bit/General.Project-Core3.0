@@ -1,0 +1,7 @@
+E:\Study\VS\General.Project\Output\netcoreapp3.1\General.ViewModels.deps.json
+E:\Study\VS\General.Project\Output\netcoreapp3.1\General.ViewModels.dll
+E:\Study\VS\General.Project\Output\netcoreapp3.1\General.ViewModels.pdb
+E:\Study\VS\General.Project\General.ViewModels\obj\Debug\netcoreapp3.1\General.ViewModels.AssemblyInfoInputs.cache
+E:\Study\VS\General.Project\General.ViewModels\obj\Debug\netcoreapp3.1\General.ViewModels.AssemblyInfo.cs
+E:\Study\VS\General.Project\General.ViewModels\obj\Debug\netcoreapp3.1\General.ViewModels.dll
+E:\Study\VS\General.Project\General.ViewModels\obj\Debug\netcoreapp3.1\General.ViewModels.pdb

@@ -1,0 +1,79 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>General.Api</name>
+    </assembly>
+    <members>
+        <member name="T:General.Api.Areas.Login.Controllers.LoginController">
+            <summary>
+            登录验证
+            </summary>
+        </member>
+        <member name="M:General.Api.Areas.Login.Controllers.LoginController.Login(System.String,System.String)">
+            <summary>
+            登录
+            </summary>
+            <param name="account">账号</param>
+            <param name="password">密码</param>
+            <returns></returns>
+        </member>
+        <member name="T:General.Api.Areas.Login.Controllers.RoleController">
+            <summary>
+            角色列表管理
+            </summary>
+        </member>
+        <member name="M:General.Api.Areas.Login.Controllers.RoleController.GetList">
+            <summary>
+            获取角色列表
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:General.Api.Areas.Login.Controllers.RoleController.AddRole(System.String)">
+            <summary>
+            添加角色
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:General.Api.Areas.Login.Controllers.RoleController.EditRole(System.Guid,System.String)">
+            <summary>
+            修改角色
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:General.Api.Areas.Login.Controllers.RoleController.DelUser(System.Guid)">
+            <summary>
+            删除角色
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="T:General.Api.Areas.Login.Controllers.UserController">
+            <summary>
+            用户列表管理
+            </summary>
+        </member>
+        <member name="M:General.Api.Areas.Login.Controllers.UserController.GetList">
+            <summary>
+            获取用户列表
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:General.Api.Areas.Login.Controllers.UserController.AddUser(General.ViewModels.RoleModel)">
+            <summary>
+            添加用户
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:General.Api.Areas.Login.Controllers.UserController.EditUser(General.ViewModels.RoleModel,System.Guid)">
+            <summary>
+            修改用户
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:General.Api.Areas.Login.Controllers.UserController.DelUser(System.Guid)">
+            <summary>
+            删除用户
+            </summary>
+            <returns></returns>
+        </member>
+    </members>
+</doc>
