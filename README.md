@@ -1,5 +1,5 @@
 # General.Project
-.Net Core 3.0
+.Net Core 3.1
 
 swagge<br/>
 Autofac 第三方依赖注入<br/>
