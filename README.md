@@ -1,4 +1,4 @@
-# General.Project-Core3.0
+# General.Project
 .Net Core 3.0
 
 1.swagge<br/>
