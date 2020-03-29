@@ -11,11 +11,11 @@ E:\Study\VS\General.Project\Output\netcoreapp3.1\General.Api.pdb
 E:\Study\VS\General.Project\General.Api\obj\Debug\netcoreapp3.1\General.Api.csprojAssemblyReference.cache
 E:\Study\VS\General.Project\General.Api\obj\Debug\netcoreapp3.1\staticwebassets\General.Api.StaticWebAssets.Manifest.cache
 E:\Study\VS\General.Project\General.Api\obj\Debug\netcoreapp3.1\staticwebassets\General.Api.StaticWebAssets.xml
-E:\Study\VS\General.Project\General.Api\obj\Debug\netcoreapp3.1\General.Api.MvcApplicationPartsAssemblyInfo.cs
-E:\Study\VS\General.Project\General.Api\obj\Debug\netcoreapp3.1\General.Api.MvcApplicationPartsAssemblyInfo.cache
 E:\Study\VS\General.Project\General.Api\obj\Debug\netcoreapp3.1\General.Api.AssemblyInfoInputs.cache
 E:\Study\VS\General.Project\General.Api\obj\Debug\netcoreapp3.1\General.Api.AssemblyInfo.cs
 E:\Study\VS\General.Project\General.Api\obj\Debug\netcoreapp3.1\General.Api.RazorTargetAssemblyInfo.cache
 E:\Study\VS\General.Project\General.Api\obj\Debug\netcoreapp3.1\General.Api.csproj.CopyComplete
 E:\Study\VS\General.Project\General.Api\obj\Debug\netcoreapp3.1\General.Api.dll
 E:\Study\VS\General.Project\General.Api\obj\Debug\netcoreapp3.1\General.Api.pdb
+E:\Study\VS\General.Project\General.Api\obj\Debug\netcoreapp3.1\General.Api.MvcApplicationPartsAssemblyInfo.cs
+E:\Study\VS\General.Project\General.Api\obj\Debug\netcoreapp3.1\General.Api.MvcApplicationPartsAssemblyInfo.cache

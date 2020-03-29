@@ -18,6 +18,7 @@ using System.Reflection;
 using Autofac;
 using General.Common;
 using General.Framework;
+using Autofac.Extras.DynamicProxy;
 
 namespace General.Api
 {
@@ -46,7 +47,7 @@ namespace General.Api
 
             //Appsettings  注入
             services.AddSingleton(new Appsettings(Env.ContentRootPath));
-            // 添加swagger
+            //添加swagger
             services.AddSwaggerSetup();
             //添加认证配置
             services.AddAuthorizationSetup();
@@ -55,6 +56,9 @@ namespace General.Api
         public void ConfigureContainer(ContainerBuilder builder)
         {
             #region Autofac  dll文件注入
+            //日志aop
+            builder.RegisterType<GeneralLogAop>();
+
             var repository = Assembly.LoadFrom(Path.Combine(basePath, "General.Repository.dll"));
             var iRepository = Assembly.LoadFrom(Path.Combine(basePath, "General.IRepository.dll"));
             var service = Assembly.LoadFile(Path.Combine(basePath, "General.Service.dll"));
@@ -63,8 +67,13 @@ namespace General.Api
             //根据名称约定（仓储的接口和实现均以Repository结尾）
             builder.RegisterAssemblyTypes(repository).Where(t => t.Name.EndsWith("Repository")).AsImplementedInterfaces().InstancePerDependency();
             builder.RegisterAssemblyTypes(iRepository).Where(t => t.Name.EndsWith("Repository")).AsImplementedInterfaces().InstancePerDependency();
-            builder.RegisterAssemblyTypes(service).Where(t => t.Name.EndsWith("Service")).AsImplementedInterfaces().InstancePerDependency();
             builder.RegisterAssemblyTypes(iService).Where(t => t.Name.EndsWith("Service")).AsImplementedInterfaces().InstancePerDependency();
+
+            builder.RegisterAssemblyTypes(service).Where(t => t.Name.EndsWith("Service"))
+                .AsImplementedInterfaces()
+                .InstancePerDependency()
+                .EnableInterfaceInterceptors()  //引用Autofac.Extras.DynamicProxy
+                .InterceptedBy(typeof(GeneralLogAop));     
             #endregion
         }
 
