@@ -29,9 +29,7 @@ namespace General.Api
             {
                 //在被拦截的方法执行完毕后 继续执行当前方法
                 invocation.Proceed();
-
                 dataIntercept += ($"被拦截方法执行完毕，返回结果：{invocation.ReturnValue}");
-
             }
             catch (Exception ex)
             {
