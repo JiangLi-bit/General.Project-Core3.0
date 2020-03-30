@@ -45,6 +45,9 @@ namespace General.Api
             string strsql = Configuration.GetConnectionString("DefaultConnection");
             services.AddDbContextPool<GeneralDbContext>(options => options.UseSqlServer(strsql));
 
+
+            //添加跨域配置
+            services.AddCorsSetup();
             //Appsettings  注入
             services.AddSingleton(new Appsettings(Env.ContentRootPath));
             //添加swagger
@@ -98,6 +101,8 @@ namespace General.Api
                 c.RoutePrefix = "";
             });
             #endregion
+
+            app.UseCors("CorsRequest");
 
             // 使用静态文件
             app.UseStaticFiles();
